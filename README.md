@@ -1,2 +1,3 @@
 # SPlist
-Sharepoint list add
+Add new item to Sharepoint list
+Console application
