@@ -14,8 +14,7 @@ namespace splistadd
         static void Main(string[] args)
         {
             Console.Write("Enter username: ");
-            string login = Console.ReadLine(); //ask username here  
-            //string login = "vahuja@ekontor.ess.ee"; //give your username here  
+            string login = Console.ReadLine(); 
 
             Console.WriteLine();
             Console.Write("Enter password: ");
@@ -25,7 +24,7 @@ namespace splistadd
             do
             {
                 ConsoleKeyInfo key = Console.ReadKey(true);
-                // Backspace Should Not Work
+
                 if (key.Key != ConsoleKey.Backspace && key.Key != ConsoleKey.Enter)
                 {
                     password += key.KeyChar;
