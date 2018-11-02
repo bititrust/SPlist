@@ -9,6 +9,7 @@ using System.Net;
 
 namespace splistadd
 {
+    //Algus
     class Program
     {
         static void Main(string[] args)
